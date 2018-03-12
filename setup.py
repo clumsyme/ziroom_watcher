@@ -17,7 +17,7 @@ DESCRIPTION = 'Get notification when ziroom\'s room status changes'
 URL = 'https://github.com/clumsyme/ziroom_watcher'
 EMAIL = 'me@imliyan.com'
 AUTHOR = 'Li Yan'
-VERSION = '0.1.2'
+VERSION = '0.1.3'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
