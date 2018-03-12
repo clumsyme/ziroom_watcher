@@ -58,7 +58,7 @@ class Watcher:
             self.info_url, headers=self.headers)
         info = json.loads(response.text)
         status = info['data']['status']
-        if status == 'tzpzz':
+        if status != 'tzpzz':
             self.sendmail('房源状态已更新', '状态更新了')
         else:
             raise NotDoneError(status)
